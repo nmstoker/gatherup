@@ -3,12 +3,12 @@
 # CURRENTLY IN ALPHA BUT HAVE A LOOK IF YOU LIKE :sparkles:
 
 <img src="./images/logo.png" align="right"
-     alt="GatherUp Logo by NMStoker" width="120" height="180">
+     alt="GatherUp Logo by NMStoker" width="180" height="120">
 
 > GatherUp helps you post essential Python config details to GitHub or Discourse, all beautifully formatted
 
 <p align="center">
-  <img src="./images/formatted-submission-text-1.png" alt="CLI Q&A outputting MD formattted text" width="738">
+  <img src="./images/formatted-submission-text-1.png" alt="CLI Q&A outputting MD formattted text" width="500">
 </p>
 
 ## How It Works
@@ -61,6 +61,6 @@ If you are able to help or can recommend someone happy to volunteer then see [TR
 
 ## More Details
 
-• [Customisation](CUSTOMISATION.md) • [Licence](LICENCE.md) • [Contributors](CONTRIBUTORS.md)
+• [Customisation](CUSTOMISATION.md) • [License](LICENSE.md) • [Contributors](CONTRIBUTORS.md)
 
 • [Contributing](CONTRIBUTING.md) • [Change Log](CHANGELOG.md) • [Security](SECURITY.md)
