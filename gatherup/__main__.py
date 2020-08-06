@@ -54,7 +54,7 @@ SOURCE_HOST_NEW_ISSUE_LINK = ''
 DISCOURSE_TOPIC_LINK = ''
 
 
-@click.version_option(version='0.0.1-alpha')
+@click.version_option(version='0.0.2-alpha')
 @click.option('-s', '--setup', is_flag=True, help='Setup user config file and offer to install example files in app directory')
 @click.option('-m', '--demo', is_flag=True, help='Demo of formatted output using built-in example files')
 @click.option('-p', '--project', type=str, help='Select project name (uses details, where found, in "project_details.txt").')
@@ -114,7 +114,7 @@ def do_setup():
     # Read the standard config from the imported package data_dir and save it to the config file
     config_contents = pkg_resources.read_text(data_dir, confuse.CONFIG_FILENAME)
     # TODO Check for file existance and warn about overwriting
-    with open(config_path, 'w') as f:
+    with open(config_path, 'w', encoding='utf-8') as f:
         f.write(config_contents)
     console.print(f'[bw]     GatherUp configuration file is: [t2]{config_path}[/t2][/bw]')
     config = set_config() # TODO get this working better (silly it's called twice here...)
@@ -125,7 +125,7 @@ def do_setup():
         try:
             # TODO Check for file existance and warn about overwriting
             project_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(project_path, 'w') as fh:
+            with open(project_path, 'w', encoding='utf-8') as fh:
                 fh.write(project_details_text)
             console.print(f'[bw]     project_details.txt file is: [t2]{project_path}[/t2][/bw]')
         except Exception as e:
@@ -139,7 +139,7 @@ def do_setup():
             try:
                 # TODO Check for file existance and warn about overwriting
                 example_path.parent.mkdir(parents=True, exist_ok=True)
-                with open(example_path, 'w') as fh:
+                with open(example_path, 'w', encoding='utf-8') as fh:
                     fh.write(example_text)
                 console.print(f'[bw]     Example file saved: [t2]{example_path}[/t2][/bw]')
             except Exception as e:
@@ -163,7 +163,7 @@ def get_project_details(project_path='', debug=None):
                 console.print(f'\nDEBUG: {project_path}')
 
 
-            with open(project_path) as fh:
+            with open(project_path, encoding='utf-8') as fh:
                 project_details_text = fh.read()
         else:
             project_details_text = ''
@@ -189,7 +189,7 @@ def get_project_details(project_path='', debug=None):
 
 def reverse_readline(filename, buf_size=8192):
     """A generator that returns the lines of a file in reverse order"""
-    with open(filename) as fh:
+    with open(filename, encoding='utf-8') as fh:
         segment = None
         offset = 0
         fh.seek(0, os.SEEK_END)
@@ -450,7 +450,7 @@ def get_conda_env(debug=None):
 
 def get_entire_file(file_path, debug=None):
     contents = ''
-    with open(file_path) as afile:
+    with open(file_path, encoding='utf-8') as afile:
         for line in afile:
             contents = contents + line
     return contents

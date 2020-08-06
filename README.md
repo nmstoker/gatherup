@@ -17,7 +17,7 @@ When something goes wrong or you want to discuss a project, a lot of the useful 
 
 GatherUp can streamline and automate both the gathering and formatting steps, making this a lot easier, resulting in well formatted and helpful posts.
 
-It focuses on the basic / common parts of your Python configuration, leaving you to craft the rest for anything more bespoke and to flesh out a meaningful question or comment (don't skimp on this last part! :slight_smile)
+It focuses on the basic / common parts of your Python configuration, leaving you to craft the rest for anything more bespoke and to flesh out a meaningful question or comment (don't skimp on this last part! :slightly_smiling_face:)
 
 ## Usage
 
