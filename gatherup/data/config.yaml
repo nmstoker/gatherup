@@ -1,0 +1,8 @@
+# config.yaml file for gatherup.py
+# --------------------------------
+#
+# Format is under development and likely to change (improve!) whilst software is in alpha
+example_config_1: example_files/example_config_1.json
+log_with_traceback: example_files/log_with_traceback.log
+log_without_traceback: example_files/log_without_traceback.log
+project_details: data/project_details.txt #can be a relative or absolute path; relative paths will be relative to the gatherup config directory

@@ -1,0 +1,15 @@
+This is just dummy content for a log file!
+[2020-07-13] Blah blah blah
+[2020-07-13] Blah blah blah
+[2020-07-13] Blah blah blah
+[2020-07-14] Blah blah blah
+[2020-07-14] Blah blah blah
+[2020-07-14] Blah blah blah
+[2020-07-14] Blah blah blah
+Now something bad is tried. Next line is a traceback (not this line :-) )
+Traceback (most recent call last):
+  File "/path/to/example.py", line 4, in <module>
+    greet('Chad')
+  File "/path/to/example.py", line 2, in greet
+    print('Hello, ' + someon)
+NameError: name 'someon' is not defined

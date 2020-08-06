@@ -1,0 +1,18 @@
+Project Name	|PyPI Installable|Conda Installable|Source Host|GitHub Issues Page|GitLab Issues Page |Discourse Page|Other Location|Before You Start
+DeepSpeech		|True|False|GitHub|https://github.com/mozilla/DeepSpeech/issues/new/choose||https://discourse.mozilla.org/c/deep-speech||
+RASA			|True|False|GitHub|https://github.com/RasaHQ/rasa/issues/new/choose||https://forum.rasa.com/||https://rasa.com/docs/
+spaCy			|True|True|GitHub|https://github.com/explosion/spaCy/issues/new/choose||||https://spacy.io/
+TTS				|False|False|GitHub|https://github.com/mozilla/TTS/issues/new/choose||https://discourse.mozilla.org/c/tts||
+# PENDING POPULATION
+#TensorFlow		|||GitHub|https://github.com/tensorflow/tensorflow/issues/new/choose||||
+#TensorBoard	|||GitHub|https://github.com/tensorflow/tensorboard/issues/new/choose||||
+#TensorBoardX	|||GitHub|https://github.com/lanpa/tensorboardX/issues/new/choose||||
+#PyTorch		|||GitHub|https://github.com/pytorch/pytorch/issues/new/choose||||
+#scikit-learn	|||GitHub|https://github.com/scikit-learn/scikit-learn/issues/new/choose||||
+#asciinema		|||GitHub|https://github.com/asciinema/asciinema/issues/new/choose||||
+#Pandas			|||GitHub|https://github.com/pandas-dev/pandas/issues/new/choose||||
+#NumPy			|||GitHub|https://github.com/numpy/numpy/issues/new/choose||||
+#Matplotlib		|||GitHub|https://github.com/matplotlib/matplotlib/issues/new/choose||||
+#Statsmodels	|||GitHub|https://github.com/statsmodels/statsmodels/issues/new/choose||||
+# ALL CASES ABOVE WHERE THEY HAVEN'T CURRENTLY SET UP A "CHOOSE" OPTION FOR NEW ISSUES HAVE HAD IT ADDED TO THE URL AS IT
+# FAILS SAFELY AND THIS WAY IF THEY ADD ONE, THE CHOOSE PAGE WON'T BE BYPASSED BY GATHERUP

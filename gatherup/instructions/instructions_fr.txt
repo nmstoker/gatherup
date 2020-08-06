@@ -1,0 +1,40 @@
+[default]
+[h2]INSTRUCTIONS[/h2]
+[ul]============[/ul]
+
+[t1]GatherUp[/t1] vous aide à publier les détails essentiels de la configuration Python sur [t2]GitHub[/t2] or [t2]Discourse[/t2], tous magnifiquement formatés.
+
+Lorsque quelque chose ne va pas ou que vous souhaitez discuter d'un projet, une grande partie des informations utiles se trouve facilement sur votre ordinateur, mais il peut être fastidieux de les rassembler et de les publier proprement dans un problème GitHub ou un sujet de discours.
+
+Il est tentant de ne pas le faire du tout ou de laisser de côté les choses utiles.
+
+Ceux qui ont moins d'expérience peuvent avoir du mal avec:
+
+  [bw]i)[/bw] comment trouver les bonnes informations localement [i]ou[/i]
+ [bw]ii)[/bw] comment le formater correctement sur le forum.
+
+Nous pouvons rationaliser et automatiser les étapes de collecte et de formatage, ce qui rend cela beaucoup plus facile, ce qui entraîne des articles bien formatés et utiles.
+
+GatherUp vous guide à travers quelques questions rapides, recherche quelques éléments ([i]si vous le souhaitez[/i]), met en forme la sortie prête à être copiée directement dans un problème ou un sujet.
+
+Parce que cela fonctionne pour vous, et parce que vous publiez le texte comme étape finale, s'il y a quelque chose que vous voulez changer ou supprimer, c'est facile de le faire, soit en sautant la question ensemble, soit en éditant le texte que vous publierez correctement. avant de le soumettre.
+
+[h2]Q. Quelles sont les étapes?[/h2]
+
+[bw] 1. [/bw] Répondez à quelques questions relatives à la configuration
+[bw] 2. [/bw] Copiez le bloc de texte (entre les [markers]marqueurs aux couleurs vives[/markers])
+[bw] 3. [/bw] Collez le texte dans GitHub ou Discourse
+[bw] 4. [/bw] Modifiez si nécessaire et soumettez
+
+[h2]Q. Quelles informations recueille-t-il?[/h2]
+
+Il pose des questions sur la plate-forme informatique et l'environnement python.
+
+Si vous êtes heureux de le laisser, il peut essayer de retirer les paquets actuellement installés installés via [t2]pip[/t2] ou [t2]conda[/t2]. Pour créer des rapports sur un projet particulier, cela suppose que vous êtes dans l'environnement dans lequel vous exécutez le projet (il serait inutile de créer des rapports sur un autre environnement!)
+
+[h2]Commentaires de clôture[/h2]
+[ul]=======================[/ul]
+
+Différents projets GitHub et forums Discourse auront des directives particulières et parfois des modèles pour renseigner les détails de votre problème réel, nous évitons ces détails plus généraux et nous nous concentrons sur les bases qui seront assez utiles dans la plupart des cas avec un projet Python typique.
+
+Comme il est open source, n'hésitez pas à étudier l'ajout de fonctionnalités supplémentaires que vous pensez utiles. Vous pouvez le faire localement juste pour vous / votre équipe (par exemple pour quelque chose de sur mesure ou de privé), ou si vous souhaitez les partager avec d'autres, jetez un œil au projet GatherUp sur GitHub ([link]https://github.com/nmstoker/gatherup[/link]) et soulevez un problème ou des PR.[/default]

@@ -1,0 +1,10 @@
+global-exclude *.pyc
+include *.md
+include *.txt
+include gatherup *.py
+recursive-include gatherup *.json
+recursive-include gatherup *.log
+recursive-include gatherup *.txt
+recursive-include gatherup *.yaml
+recursive-include tests *.py
+recursive-include images *.png

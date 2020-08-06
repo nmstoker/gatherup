@@ -1,0 +1,39 @@
+INSTRUCTIONS
+============
+
+XXXXX helps you post essential Python config details to GitHub or Discourse, all beautifully formatted.
+
+When something goes wrong or you want to discuss a project, a lot of the useful information is easily found on your computer but it can be tedious to gather it all together and post it neatly in a GitHub Issue or a Discourse Topic.
+
+It's tempting not to do it at all or to leave useful things out.
+
+Those with less experience can struggle with either:
+
+  i) how to find the right information locally or
+ ii) how to format it nicely on the forum.
+
+We can streamline and automate both the gathering and formatting steps, making this a lot easier, resulting in well formatted and helpful posts.
+
+XXXXX guides you through some quick questions, looks up a few things (if you want it to), formats the output ready to copy directly into an issue or topic.
+
+Because it's working for you, and because you post the text as the final step, if there's anything you want to change or cut out, it's easy to do so, either by skipping the question all together or editing the text you'll post right before submitting it.
+
+Q. What are the steps?
+
+ 1.  Answer some config related questions
+ 2.  Copy the block of text (between the brightly coloured markers)
+ 3.  Paste text into GitHub or Discourse
+ 4.  Edit if necessary and submit
+
+Q. What information does it gather?
+
+It asks about the computer platform and python environment.
+
+If you are happy to let it, it can try to pull out the currently installed packages installed via pip or conda.  For reporting about a particular project it assumes you're in the environment you run the project in (there would be little point reporting on another environment!)
+
+Closing comments
+================
+
+Different GitHub projects and Discourse forums will have particular guidelines and sometimes templates for populating details of your actual issue, we avoid that more general detail and focus on the basics that will be fairly useful in most cases with a typical Python project.
+
+As it's open source, feel free to investigate adding additional features you think would be valuable. You can do that locally just for you / your team (eg for something bespoke or private), or if you want to share them with others then take a look at the XXXXX project on GitHub (XXXXX) and raise an issue or pull request there.
