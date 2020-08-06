@@ -61,6 +61,6 @@ If you are able to help or can recommend someone happy to volunteer then see [TR
 
 ## More Details
 
-• [Customisation](CUSTOMISATION.md) • [License](LICENSE.md) • [Contributors](CONTRIBUTORS.md)
+• [Customisation](CUSTOMISATION.md) • [License](LICENSE.txt) • [Contributors](CONTRIBUTORS.md)
 
 • [Contributing](CONTRIBUTING.md) • [Change Log](CHANGELOG.md) • [Security](SECURITY.md)
