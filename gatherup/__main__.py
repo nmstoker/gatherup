@@ -65,6 +65,56 @@ DISCOURSE_TOPIC_LINK = ''
 def gatherup(project, no_instruct, lang, debug, setup, demo):
     """GatherUp helps you post essential Python config details to GitHub
        or Discourse, all beautifully formatted"""
+
+    global config, console, qs, rich_theme, questionary_style, autocomplete_style
+
+    config_file = get_config_file()
+
+    if config_file != '':
+        config = set_config()
+    else:
+        config = None
+
+    rich_theme = Theme({
+        "h1": "bold grey0 on yellow1",
+        "h2": "bold hot_pink",
+        "ul": "bold white",
+        "t1": "bold yellow1",
+        "t2": "bold spring_green3",
+        "bw": "bold white",
+        "edge": "grey23",
+        "link": "dodger_blue3",
+        "markers":"white italic bold on deep_pink1"
+    })
+
+    questionary_style = Style([
+        ('qmark', 'fg:#00d75f bold'),       # token in front of the question
+        ('expected', 'bold'),                # the expected value we think the user has
+        ('question', 'bold'),               # question text
+        ('answer', 'fg:#ffff00 bold'),      # submitted answer text behind the question
+        ('pointer', 'fg:#ff5fd7 bold'),     # pointer used in select and checkbox prompts
+        ('highlighted', 'fg:#ff5fd7 bold'), # pointed-at choice in select and checkbox prompts
+        ('selected', 'fg:#949494'),         # style for a selected item of a checkbox
+        ('instruction', ''),                # user instructions for select, rawselect, checkbox
+        ('text', ''),                       # plain text
+        ('disabled', 'fg:#858585 italic')   # disabled choices for select and checkbox prompts
+    ])
+
+    autocomplete_style = Style([
+        ('qmark', 'fg:#00d75f bold'),       # token in front of the question - CORRECT
+        #('expected', 'fg:#000000 bg:#ffffff bold'),                # the expected value we think the user has NOT USED
+        ('question', 'bold'),               # question text - CORRECT, IS FOR QUESTION TEXT
+        ('answer', 'fg:#00d75f bg:#322e2e bold'),      # submitted answer text behind the question - ACTUALLY USED FOR PRIMARY DROP-DOWN
+        #('pointer', 'fg:#ffffff bg:#000000 bold'),     # pointer used in select and checkbox prompts NOT USED
+        #('highlighted', 'fg:#ffffff bg:#000000 bold'), # pointed-at choice in select and checkbox prompts NOT USED
+        #('selected', 'fg:#000000 bg:#ffffff'),         # style for a selected item of a checkbox SELECTED PRIMARY DROP-DOWN, OTHERWISE SEEMS TO INVERT???
+        ('text', 'fg:#322e2e')                       # plain text - ACTUALLY USED FOR SECONDARY DROP-DOWN
+    ])
+
+
+    console = Console(width=120, theme=rich_theme)
+    qs = questionary
+
     if debug:
         console.print('\nDEBUG IS ON')
         console.print(f'Options:\n\t --lang {lang}')
@@ -828,50 +878,4 @@ def set_config():
     return confuse.Configuration(APPNAME, __name__)
 
 if __name__ == '__main__':
-    config_file = get_config_file()
-
-    if config_file != '':
-        config = set_config()
-    else:
-        config = None
-
-    rich_theme = Theme({
-        "h1": "bold grey0 on yellow1",
-        "h2": "bold hot_pink",
-        "ul": "bold white",
-        "t1": "bold yellow1",
-        "t2": "bold spring_green3",
-        "bw": "bold white",
-        "edge": "grey23",
-        "link": "dodger_blue3",
-        "markers":"white italic bold on deep_pink1"
-    })
-
-    questionary_style = Style([
-        ('qmark', 'fg:#00d75f bold'),       # token in front of the question
-        ('expected', 'bold'),                # the expected value we think the user has
-        ('question', 'bold'),               # question text
-        ('answer', 'fg:#ffff00 bold'),      # submitted answer text behind the question
-        ('pointer', 'fg:#ff5fd7 bold'),     # pointer used in select and checkbox prompts
-        ('highlighted', 'fg:#ff5fd7 bold'), # pointed-at choice in select and checkbox prompts
-        ('selected', 'fg:#949494'),         # style for a selected item of a checkbox
-        ('instruction', ''),                # user instructions for select, rawselect, checkbox
-        ('text', ''),                       # plain text
-        ('disabled', 'fg:#858585 italic')   # disabled choices for select and checkbox prompts
-    ])
-
-    autocomplete_style = Style([
-        ('qmark', 'fg:#00d75f bold'),       # token in front of the question - CORRECT
-        #('expected', 'fg:#000000 bg:#ffffff bold'),                # the expected value we think the user has NOT USED
-        ('question', 'bold'),               # question text - CORRECT, IS FOR QUESTION TEXT
-        ('answer', 'fg:#00d75f bg:#322e2e bold'),      # submitted answer text behind the question - ACTUALLY USED FOR PRIMARY DROP-DOWN
-        #('pointer', 'fg:#ffffff bg:#000000 bold'),     # pointer used in select and checkbox prompts NOT USED
-        #('highlighted', 'fg:#ffffff bg:#000000 bold'), # pointed-at choice in select and checkbox prompts NOT USED
-        #('selected', 'fg:#000000 bg:#ffffff'),         # style for a selected item of a checkbox SELECTED PRIMARY DROP-DOWN, OTHERWISE SEEMS TO INVERT???
-        ('text', 'fg:#322e2e')                       # plain text - ACTUALLY USED FOR SECONDARY DROP-DOWN
-    ])
-
-
-    console = Console(width=120, theme=rich_theme)
-    qs = questionary
     gatherup()

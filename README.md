@@ -31,9 +31,47 @@ There are four basic steps:
 
 Because it's working for you, and because you post the text as the final step, if there's anything you want to change or cut out, it's easy to do so, either by skipping the question all together or editing the text you'll post right before submitting it.
 
+    Usage: gatherup [OPTIONS]
+    
+      GatherUp helps you post essential Python config details to GitHub or
+      Discourse, all beautifully formatted
+    
+    Options:
+      -d, --debug            Show debug information during usage.
+      -n, --no_instruct      Suppress question for / display of instructions.
+      -l, --lang [en|fr|hi]  Select language for instructions (ISO_639-1).
+      -p, --project TEXT     Select project name (uses details, where found, in
+                             "project_details.txt").
+    
+      -m, --demo             Demo of formatted output using built-in example files
+      -s, --setup            Setup user config file and offer to install example
+                             files in app directory
+    
+      --version              Show the version and exit.
+      --help                 Show this message and exit.
+
 ## Installation
 
-DETAILS TO COME
+### With pipx
+
+Installing via [pipx](https://pipxproject.github.io/pipx/) means you can run GatherUp anywhere, just by using the command "**gatherup**" and any of the options.
+
+1. Install pipx as per their [installation instructions](https://pipxproject.github.io/pipx/installation/)
+2. Run `pipx install gatherup` - that's it :tada:
+
+### With pip
+
+_You may well want to do this from within a virtual environment._
+
+- `pip install gatherup`
+
+### From source
+
+_You may well want to do this from within a virtual environment._
+
+- Download the source from the repo on GitHub: https://github.com/nmstoker/gatherup
+- Extract the code and navigate to the root directory
+- Run `pip install -e .`
 
 ## Limitations
 
@@ -63,4 +101,4 @@ If you are able to help or can recommend someone happy to volunteer then see [TR
 
 • [Customisation](CUSTOMISATION.md) • [License](LICENSE.txt) • [Contributors](CONTRIBUTORS.md)
 
-• [Contributing](CONTRIBUTING.md) • [Change Log](CHANGELOG.md) • [Security](SECURITY.md)
+• [Contributing](CONTRIBUTING.md) • [Change Log](CHANGELOG.md)

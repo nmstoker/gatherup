@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='gatherup',
-    version='0.0.2',
+    version='0.0.3',
     author="Neil Stoker",
     author_email="nstoker001@gmail.com",
     description='Helps you post essential Python config details to GitHub or Discourse, all beautifully formatted',
@@ -28,6 +28,7 @@ setup(
     py_modules=["gatherup"],
     packages=find_packages("."),
     include_package_data=True,
+    entry_points={"console_scripts": ["gatherup=gatherup.__main__:gatherup"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Console",
