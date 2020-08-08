@@ -12,7 +12,7 @@
 alt="GatherUp walk-through on YouTube" width="480" height="270" border="6" /></a>
 </p>
 
-[Asciinem walk-through of GatherUp](https://asciinema.org/a/352270) _(has no sound, unlike the YouTube walk-through link above)_
+[Asciinema walk-through of GatherUp](https://asciinema.org/a/352270) _(has no sound, unlike the YouTube walk-through link above)_
 
 ## How It Works
 

@@ -4,7 +4,7 @@ GatherUp can easily be run without installing configuration files (in which case
 
 However it is also possible to run the `--setup` option to add the configuration files and then customise those so that they list projects of interest to you, with your most used ones first (or any order you prefer).
 
-The configuration file location will be platform specific (thanks to [Confuse](https://github.com/beetbox/confuse) which handles all that). You will see it displayed when you run setup. On Windows it will likely be beneath the AppData folder in your user directory, eg something like **C:\Users\<username>\AppData\Roaming\gatherup\ **.  On Linux it will likely be in **~/.config/gatherup/**.
+The configuration file location will be platform specific (thanks to [Confuse](https://github.com/beetbox/confuse) which handles all that). You will see it displayed when you run setup. On Windows it will likely be beneath the AppData folder in your user directory, eg something like **C:\\Users\\username\\AppData\\Roaming\\gatherup\\**.  On Linux it will likely be in **~/.config/gatherup/**.
 
 
 ## config.yaml
