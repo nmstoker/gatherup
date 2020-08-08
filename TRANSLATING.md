@@ -8,4 +8,4 @@ I don't anticipate translating into a huge number of languages, but if you would
 
 [This link](https://github.com/nmstoker/gatherup/labels/translation) will show all issues tagged with the label "**translation**"
 
-As my own spoken language skills are fairly limited I will need to rely on Google Translate and anyone who'll help.  If translating the instructions is too much, it would still be helpful to confirm translations proposed by others or even just to flag minor errors. The priority is to get the basic on-screen instructions translated first and then in time, if there is demand, I will explore UI translation options.
+As my own spoken language skills are fairly limited (besides English) I will need to rely on Google Translate and anyone who'll help.  If translating the instructions is too much, it would still be helpful to confirm translations proposed by others or even just to flag minor errors. The priority is to get the basic on-screen instructions translated first and then in time, if there is demand, I will explore UI translation options.

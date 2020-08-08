@@ -8,8 +8,11 @@
 > GatherUp helps you post essential Python config details to GitHub or Discourse, all beautifully formatted
 
 <p align="center">
-  <img src="./images/formatted-submission-text-1.png" alt="CLI Q&A outputting MD formattted text" width="500">
+  <a href="https://youtu.be/owQdT4jiwIo" target="_blank"><img src="./images/formatted-submission-text-1.png" 
+alt="GatherUp walk-through on YouTube" width="480" height="270" border="6" /></a>
 </p>
+
+[Asciinem walk-through of GatherUp](https://asciinema.org/a/352270) _(has no sound, unlike the YouTube walk-through link above)_
 
 ## How It Works
 
@@ -84,7 +87,7 @@ Remember that this is meant to save you time, so we mustn't be tempted to go dow
 <!-- See [Design Thoughts](design_thinking.md) for more background. -->
 
 ### Short term limits
-Currently it is untested on Windows, Mac and other Linux installations besides Arch Linux and Raspberry Pi OS - if it can be made to work on any/all of these that would be great, but I would expect that to be gradual.
+Currently it has had limited testing on Windows 10, with more involved testing on Arch Linux and Raspberry Pi OS. It is untested on Mac and other Linux variants - if it can be made to work on any/all of these that would be great, but I would expect that to be gradual.
 
 ### Longer term limits / out of scope
 Whilst the information it gathers is not set in stone, I am wary of extending it to cover too broad a range of scenarios: better to do a common core well than a huge swathe poorly and unreliably.
