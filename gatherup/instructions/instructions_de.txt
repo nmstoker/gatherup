@@ -1,0 +1,41 @@
+[default]
+[h2]INSTRUCTIONS[/h2]
+[ul]============[/ul]
+
+[t1]GatherUp[/t1] hilft Ihnen dabei wichtige Python-Konfigurationsdetails auf [t2]GitHub[/t2] oder [t2]Discourse[/t2] zu veröffentlichen, und das schön formatiert.
+
+Wenn etwas in einem Projekt schief läuft oder darüber diskutiert werden soll, können eine Menge hilfreicher Informationen auf dem Computer gefunden werden, 
+aber es ist anstrengend diese zusammen zu stellen und ordentlich in einem GitHub-Issue oder einem Discourse-Beitrag zu veröffentlichen.
+
+Es ist deshalb verlockend, dies nicht zu tun und so die hilfreichen Informationen wegzulassen.
+
+Weniger erfahrene Anwender scheitern daran:
+  [bw]i)[/bw] die richtigen Information lokal zu finden [i]or[/i]
+ [bw]ii)[/bw] die Information für das Diskussionforum schön zu formatieren.
+
+Wir können das Sammeln und Formatieren rationalisieren und automatisieren, was diese Schritte stark vereinfacht und in gut formatierten und hilfreichen Diskussionsbeiträgen resultiert.
+
+GatherUp leitet Sie durch ein paar einfache Fragen, schlägt dann einige Dinge nach und - sofern gewünscht - formatiert die Ausgabe so, dass sie direkt in ein Issue oder Beitrag eingefügt werden kann.
+
+Weil GatherUp für Sie arbeitet und weil Sie den Text als letzten Schritt veröffentlichen, haben Sie die volle Kontrolle. Wenn Sie etwas ändern oder ausschneiden möchten, ist dies einfach, indem Sie entweder die Frage überspringen oder vor dem veröffentlichen den Text bearbeiten.
+
+
+[h2]Frage: Was sind die Schritte?[/h2]
+
+[bw] 1. [/bw] Beantworten Sie einige Fragen zur Konfiguration
+[bw] 2. [/bw] Kopieren Sie den Textblock (zwischen den [markers]Hervorhebungen[/markers])
+[bw] 3. [/bw] Fügen Sie den Text in ein Github-Issue oder Discourse-Beitrag ein
+[bw] 4. [/bw] Bearbeiten Sie den Text falls notwendig und veröffentlichen dann.
+
+[h2]Frage: Welche Informationen sammelt GatherUp?[/h2]
+
+It asks about the computer platform and python environment.
+Sie werden nach der Computer Plattform und der Python-Umgebung gefragt.
+
+Wenn Sie es lassen, kann GatherUp die aktuell via [t2]pip[/t2] oder [t2]conda[/t2] installierten Pakete ermitteln. Dabei wird angenommen, dass Sie sich aktuell in der für das Projekt spezifischen (virtuellen) Python-Umgebung befinden (etwas anderes würde keinen Sinn machen!)
+
+[h2]Schlussbemerkung[/h2]
+[ul]================[/ul]
+
+Einige GitHub-Projekte und Discourse-Foren haben spezifische Richtlinien und manchmal Formulare und einen Problembericht auszufüllen. GatherUp vermeidet diese allgemeinen Information und konzentriert auf die grundlegenden Information die in den meisten Fällen für ein Python-Projekt nützlich sind.
+Da es sich um Open Source handelt, können Sie weitere Funktionen hinzufügen, die Sie für nützlich halten. Wenn Sie diese mit anderen teilen möchten, schauen Sie sich das GatherUp-Projekt auf GitHub an ([link]https://github.com/nmstoker/gatherup[/link]) und erstellen dort ein Issue oder ein Pull-Request. [/default]
