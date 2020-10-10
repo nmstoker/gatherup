@@ -15,8 +15,8 @@ setup(
     url="https://github.com/nmstoker/gatherup",
     install_requires = [
         "click>7.0,<8.0",
-        "questionary>1.5,<2.0",
-        "rich>3.3,<4.0",
+        "questionary>1.5.2,<2.0",
+        "rich>7.1,<9.0",
         "confuse>1.2,<1.4",
         "importlib_resources ; python_version<'3.7'"
     ],
