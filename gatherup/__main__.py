@@ -54,7 +54,7 @@ SOURCE_HOST_NEW_ISSUE_LINK = ''
 DISCOURSE_TOPIC_LINK = ''
 
 
-@click.version_option(version='0.0.2-alpha')
+@click.version_option(version='0.0.4-alpha')
 @click.option('-s', '--setup', is_flag=True, help='Setup user config file and offer to install example files in app directory')
 @click.option('-m', '--demo', is_flag=True, help='Demo of formatted output using built-in example files')
 @click.option('-p', '--project', type=str, help='Select project name (uses details, where found, in "project_details.txt").')

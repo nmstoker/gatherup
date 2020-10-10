@@ -1,7 +1,5 @@
 # GatherUp :gift:
 
-# CURRENTLY IN ALPHA BUT HAVE A LOOK IF YOU LIKE :sparkles:
-
 <img src="./images/logo.png" align="right"
      alt="GatherUp Logo by NMStoker" width="180" height="120">
 
@@ -40,18 +38,18 @@ Because it's working for you, and because you post the text as the final step, i
       Discourse, all beautifully formatted
     
     Options:
-      -d, --debug            Show debug information during usage.
-      -n, --no_instruct      Suppress question for / display of instructions.
-      -l, --lang [en|fr|hi]  Select language for instructions (ISO_639-1).
-      -p, --project TEXT     Select project name (uses details, where found, in
-                             "project_details.txt").
+      -d, --debug               Show debug information during usage.
+      -n, --no_instruct         Suppress question for / display of instructions.
+      -l, --lang [en|de|fr|hi]  Select language for instructions (ISO_639-1).
+      -p, --project TEXT        Select project name (uses details, where found, in
+                                "project_details.txt").
     
-      -m, --demo             Demo of formatted output using built-in example files
-      -s, --setup            Setup user config file and offer to install example
-                             files in app directory
+      -m, --demo                Demo of formatted output using built-in example files
+      -s, --setup               Setup user config file and offer to install example
+                                files in app directory
     
-      --version              Show the version and exit.
-      --help                 Show this message and exit.
+      --version                 Show the version and exit.
+      --help                    Show this message and exit.
 
 ## Installation
 

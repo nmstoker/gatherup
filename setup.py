@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='gatherup',
-    version='0.0.3',
+    version='0.0.4',
     author="Neil Stoker",
     author_email="nstoker001@gmail.com",
     description='Helps you post essential Python config details to GitHub or Discourse, all beautifully formatted',

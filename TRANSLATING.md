@@ -2,7 +2,7 @@
 
 My hope is to get good coverage of major languages with the translations of the instructions (and in future the Question UI too), so that the tool is easy to use and accessible for people all over the globe.  This may be another aspect where this project is "over-engineered", but it seemed a nice goal to try.
 
-The initial translations are done with Google Translate (so please accept my apologies for any inaccuracies!)
+The initial translations for French and Hindi were done with Google Translate (so please accept my apologies for any inaccuracies!)
 
 I don't anticipate translating into a huge number of languages, but if you would like to help with a particular language then please get in touch by raising an Issue.
 
