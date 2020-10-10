@@ -36,12 +36,12 @@ APPNAME = 'gatherup'
 QUIT = False
 LANGUAGES = {
     'en':'English',
+    'de':'Deutsch',
     'fr':'Francais',
     'hi':'हिन्दी'          # Hindi
     }
 #TODO: get these translations done (once the basic English version has been firmed up)
 #    'es':'Español'
-#    'de':'Deutsch'
 #    'zh':'Zhōngwén',     # Chinese
 #    }
 
