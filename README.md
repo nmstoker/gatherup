@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://youtu.be/owQdT4jiwIo" target="_blank"><img src="./images/formatted-submission-text-1.png" 
-alt="GatherUp walk-through on YouTube" width="480" height="270" border="6" /></a>
+alt="GatherUp walk-through on YouTube" width="480" height="385" border="6" /></a>
 </p>
 
 [Asciinema walk-through of GatherUp](https://asciinema.org/a/352270) _(has no sound, unlike the YouTube walk-through link above)_
